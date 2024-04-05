@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Usage: ./0-world_wide_web <domain> <subdomain>
 # Display information about subdomains.
 
@@ -16,5 +17,3 @@ elif [ "$#" == 2 ]
 then
   domain_information "$1" "$2"
 fi
-~
-
